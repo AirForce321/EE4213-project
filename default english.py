@@ -2,13 +2,7 @@ import re
 from transformers import pipeline
 
 # Data Input
-text = """I always head to this brand for the dependability and these arrived fresh and ready to go...
-
-...and...
-
-...still going!
-
-I mean they last for quite some time, I have these in everything from my mice zapper to my under-the-counter lighting. This brand seems to last longer than anything else out there and I'm always satisfied with my purchase of the energizers."""
+text = """I purchased this box of batteries last September 2022. Today, April 2, 2023, I tried to use them and none of them work. The mfg claims it will last 10 years in storage! Well, sad to let Energizer know it was NOT the case here. Didn't even last one full year. Product didn't keep up with the written guarantee mentioned under the description that will last 10 years in storage. Don't throw your hard earned dollar away buying in bulk. Unfortunately, I cannot return them to Amazon, as time has passed. And doubt mfg will do anything about it"""
 
 # Data Preprocess
 def preprocess_text(text):

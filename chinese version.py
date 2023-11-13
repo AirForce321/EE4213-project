@@ -2,7 +2,7 @@ import re
 from transformers import pipeline
 
 # Data Input
-text = """已经吃了很多年了，这颜色还是第一次，眼睛需要的重要营养补给，绝对有好处。"""
+text = """从伦敦漂洋过海就一个牛皮纸袋子，里面的望远镜盒子都压扁了，好歹弄个纸箱子呀。"""
 
 # Data Preprocess
 def preprocess_text(text):
